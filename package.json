@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "director": "^1.2.8",
+    "todomvc-app-css": "^2.1.0",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "http-server": "./node_modules/.bin/http-server"
+  }
+}
