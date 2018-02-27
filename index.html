@@ -1,22 +1,18 @@
 <!doctype html>
-<html data-framework="vue">
+<html>
 <head>
     <meta charset="utf-8">
-    <title>Vue.js • TodoMVC</title>
-    <link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+    <title>TodoMVC</title>
     <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
-    <style> [v-cloak] {
-        /*display: none;*/
-    } </style>
 </head>
 <body>
-<section class="todoapp" v-cloak>
+<section class="todoapp">
     <header class="header">
         <h1>todos</h1>
         <input class="new-todo" autofocus autocomplete="off" placeholder="What needs to be done?">
     </header>
     <section class="main">
-        <input class="toggle-all" type="checkbox" v-model="allDone">
+        <input class="toggle-all" type="checkbox">
         <ul class="todo-list">
             <li class="todo">
                 <div class="view">
@@ -38,12 +34,12 @@
     </section>
     <footer class="footer">
                 <span class="todo-count">
-                 <strong v-text="remaining"></strong> 5 left
+                 <strong></strong> 5 left
                  </span>
         <ul class="filters">
-            <li><a href="#/all" class="selected">All</a></li>
-            <li><a href="#/active">Active</a></li>
-            <li><a href="#/completed">Completed</a></li>
+            <li><a href="#" class="selected">All</a></li>
+            <li><a href="#">Active</a></li>
+            <li><a href="#">Completed</a></li>
         </ul>
         <button class="clear-completed">
             Clear completed
